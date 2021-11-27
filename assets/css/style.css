@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Azonix;
+    src: url(/assets/fontes/Azonix.otf);
+}
+/* Regras gerais - body */
+body {
+    background-color: black;
+    font-family: Azonix;
+    color: white;
+    background-image: url(/assets/imagens/background.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    box-shadow: 0px 10px 50px -30px white, 41px -23px 36px -16px rgba(0,0,0,0);
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+header h1 {
+    display: block;
+    font-size: 40px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 30px;
+    font-size: 25px;
+}
